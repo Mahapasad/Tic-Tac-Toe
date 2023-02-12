@@ -59,7 +59,7 @@ Array.from(boxes).forEach(element =>{
         Array.from(boxtexts).forEach(element => {
             element.innerText='';
         })
-        turn=x;
+        turn='X';
         document.querySelector('.imgbox').getElementsByTagName('img')[0].style.width= '0';
         document.getElementsByClassName('info')[0].innerText="turn for "+ turn;
         isgameover=false;
