@@ -52,9 +52,7 @@ Array.from(boxes).forEach(element =>{
     })
 })
 
-// if(tie==9){
-    //     document.body.innerHTML=" Gand marao"
-    // }
+
     
     reset.addEventListener('click', ()=>{
         let boxtexts=document.querySelectorAll('.boxtext')
